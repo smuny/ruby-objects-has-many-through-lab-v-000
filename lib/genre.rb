@@ -14,7 +14,7 @@ class Genre
   end
   def add_song(song)
     @songs << song
-    Artist.all
+    @artists << Artist.all
     song
   end
   
