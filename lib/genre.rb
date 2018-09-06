@@ -19,6 +19,7 @@ class Genre
   end
   def add_artist(artist)
     @artists << artist
+    artist
   end
   
 end
